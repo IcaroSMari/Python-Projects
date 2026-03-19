@@ -91,3 +91,36 @@ print(type(10 == 10))
 print(type(10 == 11))
 
 
+
+#pt6
+# conversão de tipos, coerção
+# type convertion, typecasting, coercion
+# é o ato de converter um tipo em outro
+#  tipos imutáveis e primitivos:
+# str, int, float, bool
+print(int('1'), type(int('1')))
+print(type(float('1') + 1))
+print(bool(' '))
+print(str(11) + 'b')
+
+
+
+#pt7
+# Variáveis são usadas para salvar algo na memória do computador.
+# PEP8: inicie variáveis com letras minúsculas, pode usar
+# números e underline _.
+# O sinal de = é o operador de atribuição. Ele é usado para
+# atribuir um valor a um nome (variável).
+# Uso: nome_variavel = expressão
+
+# nome_completo = 'Icaro Souza Mari'
+# soma_dois_mais_dois = 2 + 2
+# int_um = bool('1') ser especifico com os nomes, aqui vemos um erro de nomeação
+# print(int_um, type(int_um))
+# print(nome_completo, soma_dois_mais_dois)
+
+nome = 'Icaro'
+idade = 20
+maior_de_idade = idade >= 18
+print('Nome:', nome, 'Idade:', idade)
+print('É maior?', maior_de_idade)
