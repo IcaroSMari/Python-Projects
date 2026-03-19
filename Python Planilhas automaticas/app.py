@@ -9,7 +9,7 @@ from datetime import datetime
 
 # Força UTF-8 no print (Windows)
 sys.stdout.reconfigure(encoding="utf-8")
-asd
+
 # Data atual para nome do arquivo
 data_hoje = datetime.today().strftime("%Y-%m-%d")
 
